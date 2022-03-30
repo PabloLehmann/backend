@@ -1,12 +1,10 @@
 const express = require ("express")
 const app = express()
-//const productos = require ("../desafio2/productos")
 const Container = require ("./desafio2/desafio2")
-//console.log(productos);
+
 
 const nuevoProducto = new Container ("./desafio2/productos.txt")
-//const productosString = JSON.stringify(productos)
-//const productosString= prod.escribir(JSON.stringify(productos))
+
 
 
 const prodRandom = async()=>{
