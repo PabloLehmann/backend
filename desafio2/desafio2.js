@@ -62,6 +62,7 @@ class Container{
             throw new Error(error)
         }
     }
+    
     async guardarProducto(obj){
         try{
             const contenido = await this.leer()
@@ -82,6 +83,7 @@ class Container{
             throw new Error(error)
         }
     }
+
    
 
 
