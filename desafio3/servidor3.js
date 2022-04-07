@@ -1,9 +1,9 @@
 const express = require ("express")
 const app = express()
-const Container = require ("./desafio2/desafio2")
+const Container = require ("../desafio2/desafio2")
 
 
-const nuevoProducto = new Container ("./desafio2/productos.txt")
+const nuevoProducto = new Container ("../desafio2/productos.txt")
 
 
 
